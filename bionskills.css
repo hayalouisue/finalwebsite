@@ -110,14 +110,11 @@
     text-align: justify;
   }
   
-  /* Go Top Button */
-  .go-top {
-  position: fixed; /* Fixes the position relative to the viewport */
-  bottom: 20px; /* Adjust this to set how far from the bottom */
-  right: 20px;  /* Adjust this to set how far from the right */
-  display: flex;
-  justify-content: flex-end;
-  text-align: right;
+/* Go Top Button */
+.go-top {
+  position: fixed;  /* Make sure it's fixed relative to the viewport */
+  bottom: 20px;     /* Adjust distance from the bottom */
+  right: 20px;      /* Adjust distance from the right */
   padding: 15px 30px;
   background-color: #1db954;
   color: #121212;
