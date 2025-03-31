@@ -103,8 +103,9 @@
     opacity: 1;
 }
 .go-top {
-  display: block;
-  margin: 40px auto;
+  position: fixed;  /* Make sure it's fixed relative to the viewport */
+  bottom: 20px;     /* Adjust distance from the bottom */
+  right: 20px;      /* Adjust distance from the right */
   padding: 15px 30px;
   background-color: #1db954;
   color: #121212;
@@ -115,6 +116,7 @@
   transition: color 0.3s ease; /* Smooth color transition */
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .go-top:hover {
   color: white; /* Change text color to white */
