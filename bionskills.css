@@ -114,6 +114,7 @@
   .go-top {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin: 40px auto;
     padding: 15px 30px;
     background-color: #1db954;
